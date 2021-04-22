@@ -1,3 +1,4 @@
+import React from 'react';
 import SidebarRow from './SidebarRow';
 import HomeIcon from  "@material-ui/icons/Home";
 import WhatshotIcon from  "@material-ui/icons/Whatshot";

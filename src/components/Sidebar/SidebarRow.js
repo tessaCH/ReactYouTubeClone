@@ -1,3 +1,4 @@
+import React from 'react';
 import "./SidebarRow.css";
 
 function SidebarRow({ selected, Icon, title }) {
