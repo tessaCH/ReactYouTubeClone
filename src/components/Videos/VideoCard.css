@@ -1,54 +1,62 @@
 .videoCard {    
-    width: 300px;
-    background-color: white;
-    margin: 10px;
+    width: 327px;
+    height: 301px;
+    margin: 15px;
+    background-color: white 0% 0% no-repeat padding-box;    
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
 }
 
-.videoCard_thumbnail {
-    border-radius: 10px 10px 0 0;
-    height: 168px;
+.videoCard_thumbnail {    
     width: 100%;
+    height: 184px;
+    background-color: white 0% 0% no-repeat padding-box;
+    border-radius: 10px 10px 0 0;
+    opacity: 1;
 }
 
 .videoCard_info {
     display: flex;
-    margin: 10px 15px;
+    margin: 15px 15px;
 }
 
 .videoCard_wrap {
-    font-size: 14px;
+    color: #333333;
+    font-size: 14px;    
+    font: normal normal medium 14px/25px Noto Sans;
+    text-align: justify;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
-    -webkit-line-clamp: 2;
-    font-weight: 1000;
+    -webkit-line-clamp: 2; 
 }
 
 .videoCard_footer {
+    height: 17px;    
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 12px;
-    color: gray;
+    letter-spacing: 0px;
+    color: #777777;
+    opacity: 1;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: 10px;
 }
 
 .videoCard_footer .videoCard_channel {
-    width: 35%;
+    width: 40%;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
     -webkit-line-clamp: 1;
-    overflow: hidden;
 }
 .videoCard_footer .videoCard_view {
+    width: 60%;
     text-align: right;
-    width: 65%;
 }

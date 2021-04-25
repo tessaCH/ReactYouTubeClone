@@ -1,0 +1,22 @@
+.channelCard {    
+    width: 170px;
+    height: 245px;
+    display: flex;
+}
+
+.channelCard_thumbnailBox {    
+    width: 170px;
+    height: 200px;
+    opacity: 1;
+}
+
+.channelCard_thumbnail {    
+    width: 170px;
+    height: 170px;
+    border-radius: 100%; 
+}
+
+.channelCard_info {    
+    width: 170px;
+    height: 45px;
+}

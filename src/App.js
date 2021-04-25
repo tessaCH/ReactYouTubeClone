@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
-import RecommendedVideos from './components/Videos/RecommendedVideos';
-import SearchPage from './components/SearchPage/SearchPage'
+import RelatedVideos from './components/Videos/RelatedVideos';
+import ChannelInfluence from './components/Channel/ChannelInfluence'
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
@@ -11,17 +11,16 @@ function App() {
     <div className="App">
         <Header />
         <Switch>
-          <Route exact path='/search/' component={SearchPage} />
-          <Route path="/search/:searchTerm">
+          <Route exact path='/search/' component={{ChannelInfluence}} />
+          <Route path="/ddd">
             <div className="app_page">
-              <Sidebar />      
-              <SearchPage />
+              <ChannelInfluence />
             </div>
           </Route>
           <Route path="/">
             <div className="app_page">
               <Sidebar />      
-              <RecommendedVideos />
+              <RelatedVideos title='Recommended' columns='2'/>
             </div>
           </Route>
         </Switch>

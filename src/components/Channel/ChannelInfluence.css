@@ -1,0 +1,70 @@
+.channelInfluence {
+    width: 1400px;
+    height: 490px;
+    height: inherit;
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+
+.channelInfluence_channelBox{
+    flex: 0.2;    
+}
+.channelInfluence_channelAvatar{
+    width: 170px;
+}
+.channelInfluence_channelAvatarImg{
+    width: 170px;
+    border-radius: 100%;
+}
+.channelInfluence_channelTitle{
+    width: 170px;
+    height: 45px;
+    text-align: center;
+    font: normal normal medium 16px/22px Noto Sans;
+    color: #333333;
+}
+
+.channelInfluence_InfoBox {
+    flex: 0.8;
+}
+
+.channelInfluence_infolist{
+    display: flex;
+    /*width: 1030px;*/
+}
+
+.channelInfluence_InfoBox > hr{
+    display: flex;
+    height: 2px;
+    border: 1px dashed #ADADAD;
+    opacity: 1;
+}
+
+.channelInfluence_info{   
+    display: flex; 
+    height: 75;
+}
+
+.channelInfluence_infoTitle{
+    text-align: left;
+    font: normal normal medium 18px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.channelInfluence_infoContent{
+    display: flex;
+    text-align: left;
+    font: normal normal medium 25px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #777777;
+}
+
+.channelInfluence_videos {
+    /*width: 1030px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

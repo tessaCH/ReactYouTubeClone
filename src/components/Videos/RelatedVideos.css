@@ -1,0 +1,19 @@
+.relatedVideos {
+    width: 1400px;
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+
+.relatedVideos > h2 {
+    font-size: 20px;
+    font: normal normal medium 20px/25px Noto Sans;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.relatedVideos_videos {
+    display: flex;
+    flex-wrap: wrap;
+}
